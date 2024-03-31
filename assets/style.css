@@ -2,10 +2,16 @@ body {
 	max-width: 1920px;
 	margin: auto;
 }
+
 * {
 	font-family: 'Inter';
 	font-style: normal;
 }
+
+*,*::before, *::after{
+	box-sizing: border-box;
+}
+
 .top-header {
 	background-color: white;
 	position: sticky;
@@ -40,6 +46,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -244,6 +251,8 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+/*******************************************BREAKPOINTS**************************************************/
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -319,9 +328,7 @@ input[type="submit"] {
 	}
 }
 
-/*******************************************Responsive**************************************************/
-
-@media screen and (max-width: 650px) {
+@media all and (max-width: 650px) {
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
@@ -355,4 +362,3 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
-
