@@ -69,7 +69,6 @@ body {
 
 .picture img {
 	width: 100%;
-
 }
 #about-me {
 	flex: 2
@@ -101,7 +100,8 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
+	font-size: larger;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
@@ -319,7 +319,9 @@ input[type="submit"] {
 	}
 }
 
-@media all and (max-width: 650px) {
+/*******************************************Responsive**************************************************/
+
+@media screen and (max-width: 650px) {
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
