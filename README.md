@@ -9,6 +9,6 @@
   + **Lighthouse**
   + **Wave**
 
-## Page web initiale : (https://ninacarducci.github.io/)
+## Page web initiale : https://ninacarducci.github.io/
 
-## Page web après l'optimisation : (https://intistella.github.io/Nina-Carducci/)
+## Page web après l'optimisation : https://intistella.github.io/Nina-Carducci/
